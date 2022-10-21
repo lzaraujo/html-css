@@ -45,25 +45,21 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-
 }
 
 section.normal {
     background-color: white;
     color: black;
-
 }
 
 section.imagem {
     background-color: rgba(18, 18, 20, 0.555);
     color: white;
-
 }
 
 section.imagem > p {
     width: 400px;
     background-color: rgba(0, 0, 0, 0.356);
-
 }
 
 /*▬▬▬ FOOTER ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
