@@ -5,11 +5,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
+
+/*▬▬▬ Importando as fontes externas YouTube ▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,12 +19,13 @@
     --fonte3: 'Sriracha', cursive;
 }
 
+/*▬▬▬ BODY ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
     font-family: var(--fonte1);
 }
-/*▬▬▬ BODY ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
+
 
 /*▬▬▬ HEADER ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
  header {
@@ -65,7 +68,6 @@ section {
 
 section > p {
     padding-bottom: 2em;
-
 }
 
 section.normal {
@@ -98,32 +100,10 @@ section#img02 {
 }
 
 /*▬▬▬ FOOTER ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*▬▬▬ BODY ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
-
-/*▬▬▬ fonte importada Google ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
-/*▬▬▬ fonte baixada ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
-/*▬▬▬ ROOT ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
-/*▬▬▬ BODY ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
